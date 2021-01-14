@@ -1,0 +1,49 @@
+.banner__context{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__context__name{
+    color: #cd4f40;
+    font-size: 3.8rem;
+    margin: 0;
+    text-align: center;
+    animation:  bannerAnimation 0.5s linear forwards;
+}
+
+.banner__context__occupation{
+    color: white;
+    margin: 0;
+    font-size: 1.9rem;
+    text-align: center;
+    animation:  bannerAnimation 0.5s linear forwards ;
+    animation-delay: 0.4s;
+    opacity: 0;
+
+}
+.code_img{
+    margin: 10px 0;
+    animation:  bannerAnimation 0.5s linear forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
+}
+
+
+@keyframes bannerAnimation {
+    0%{
+        transform: translateY(6vh);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

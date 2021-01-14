@@ -1,0 +1,26 @@
+.skills__item{
+    margin: 40px 70px 10px ;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.skills__item img{
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.skills__item h5{
+    font-size: 1.7rem;
+    color: #DDD;
+}
+
+
+
+
+@media(max-width:400px){
+    .skills__item img{
+        height: 90px;
+    }
+    
+}

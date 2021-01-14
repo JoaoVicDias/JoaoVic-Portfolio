@@ -1,0 +1,43 @@
+.projects__item{
+    margin: 10px;
+    height: 400px;
+    width: 47vw;
+    transition: 0.4s;
+    text-align: center;
+    min-width: 570px;
+    border-radius: 2px;
+}
+
+.burger__builder__img{
+    background: url('../../img/projects/burguer__builder.png') center/cover no-repeat;
+}
+
+.agenda{
+    background: url('../../img/projects/agenda.png') center/cover no-repeat;
+}
+
+.site__jogos{
+    background: url('../../img/projects/site__jogos.png') top 25% left /cover no-repeat;
+}
+
+.clone__programathor{
+    background: url('../../img/projects/clone__programathor.png') center/cover no-repeat;
+}
+
+
+.projects__item:hover{
+    padding: 10px;
+}
+
+.projects__item div:hover{
+    opacity: 1
+}
+
+
+@media(max-width:640px){
+    .projects__item{
+        min-width: 0;
+        width: 90vw;
+        height: 400px;
+    }
+}

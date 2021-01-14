@@ -1,0 +1,122 @@
+.aboutme{
+    padding: 20px;
+    background-color:#1a1a1a;
+    width: 100vw;
+}
+
+.aboutme__main__information{
+    text-align: center;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.aboutme__main__components{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutme__main__text{
+    margin: 50px 0;
+}
+
+.aboutme__main__title{
+    color: #cd4f40;
+    font-size: 2rem;
+}
+
+.aboutme__main__context{
+    line-height: 22px;
+    color: #DDD;
+    max-width: 600px;
+}
+
+.aboutme__main__download{
+    text-align: center;
+    display: inline-block;
+    margin: 20px 0;
+    padding:10px 50px;
+    text-decoration: none;
+    border:1px solid #cd4f40;
+    color: #cd4f40;
+    font-size:1.4rem ;
+    transition:background 0.4s;
+}
+
+
+.aboutme__main__img{
+    width: 620px;
+    height: 465px;
+    min-width: 600px;
+}
+
+.aboutme__main__img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.aboutme__main__download:hover,
+.aboutme__main__download:active{
+    color: #FFF;
+    background-color: #cd4f40;
+}
+
+
+@media(max-width:1000px){
+    .aboutme__main__components{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+@media(max-width:650px){
+    
+    .aboutme__main__img{
+        width: 520px;
+        height: 365px;
+        min-width: 300px;
+    }
+
+    .aboutme__main__download{
+        font-size:1.2rem ;
+        
+    }
+}
+
+@media(max-width:530px){
+    .aboutme__main__img{
+        width: 420px;
+        height: 290px;
+        min-width: 200px;
+        margin: 0 15px 0 0;
+    }
+
+    .aboutme__main__title{
+        font-size: 1.6rem;
+    }
+    
+    .aboutme__main__context{
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:425px){
+    .aboutme__main__img{
+        width: 360px;
+        height: 265px;
+        min-width: 100px;
+        margin: 0 15px 0 0;
+    }
+}
+
+@media(max-width:328px){
+    .aboutme__main__img{
+        width: 300px;
+        height: 255px;
+        min-width: 100px;
+        margin: 0 15px 0 0;
+    }
+}

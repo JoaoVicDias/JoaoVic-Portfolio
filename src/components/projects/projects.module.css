@@ -1,0 +1,124 @@
+.projects{
+    background-color: #000;
+    padding: 10px;
+}
+
+.projects__title{
+    font-size: 2rem;
+    color: #FFF;
+    text-align: center;
+}
+
+.projects__items{
+    display: flex;
+    margin: 76px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info__projects{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s;
+    padding: 10px;
+   
+}
+
+.info__projects h3{
+    color: #FFF;
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+.info__projects__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__projects__item{
+    color: #FFF;
+    text-decoration: none;
+    display: flex;
+    margin: 0 10px;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+   padding-bottom: 10px;
+}
+
+.info__projects__item img{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+
+.info__projects__item::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    transform:scaleX(0);
+    height:2px;
+    bottom:0;
+    left:0;
+    background-color:#FFF;
+    transform-origin:bottom right;
+    transition:transform 0.25s ease-out;
+}
+
+.info__projects__item:hover::after,
+.info__projects__item:active{
+    transform:scaleX(1);
+    transform-origin:bottom left;
+}
+
+.burguer__builder{
+    background-color: rgba(207, 143, 46, 0.8);
+}
+
+.clone__programathor{
+   background-color: rgba(51, 51, 53,0.8);
+}
+
+.agenda{
+    background-color: rgba(255, 32, 88,0.8);
+}
+
+.site__jogos{
+   background-color: rgba(229, 185, 51,0.8);
+}
+
+
+@media(max-width:500px){
+    .info__projects__items{
+        padding: 0 10px;
+    }
+}
+
+@media(max-width:445px){
+    .info__projects__items{
+        flex-flow: column;
+    }
+}
+
+@media(max-width:380px){
+    .info__projects__item{
+        min-height: 38px;
+    }
+
+    .info__projects__item img{
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+    }
+
+    .projects__items{
+        padding: 20px 0;
+    }
+}
+
