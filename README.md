@@ -7,13 +7,6 @@ This project is a  website, totally responsive,where you can see all.
 ## About this project
 I developed this site using ReactJs for being a single page project and for the several development advantages that Framework gives me.
 
-### What can you do ?
-- You can create your burger.
-- You can order your burger.
-- You can create an account and log in to the website.
-- You can see your orders. 
-
-
 ### How is the site?
   #### Index page:
    ![](index.gif)
