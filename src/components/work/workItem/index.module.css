@@ -1,0 +1,49 @@
+.work_item__article {
+    width: 30%;
+}
+
+.work_item__article h2{
+    color: #cd4f40;
+    font-size: 1.4rem;
+    margin: 0 0 25px 0;
+    text-align: center;
+}
+
+.work_item__article p {
+    color: #999;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.work_item__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.work_span__company_name {
+    font-size: .875rem;
+    color: #ffffffc7;
+
+}
+
+.work_span__dot {
+    font-size: 1.2rem;
+    background-color: #fff;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.work_span__date {
+    font-size: .875rem;
+    color: #ffffff91;
+}
+
+@media(max-width: 1023px) {
+    .work_item__article {
+        width: 100%;
+        margin: 40px 0;
+    }
+}

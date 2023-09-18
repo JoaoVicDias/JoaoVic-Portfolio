@@ -1,12 +1,10 @@
 import classes from './footer.module.css'
 
 
-const footer = ()=>{
-    return(
-        <div className={classes.footer}>
-            <p>Copyright © 2021 João Victor Dias.</p>
-        </div>
-    )
-}
+const footer = () => (
+    <footer className={classes.footer}>
+        <p>Copyright © {new Date().getFullYear()} João Victor Dias.</p>
+    </footer>
+)
 
 export default footer

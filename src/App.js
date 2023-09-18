@@ -1,11 +1,5 @@
-import IndexPage from "./conteiners/indexPage/indexPage"
+import Home from "./pages/Home"
 
-function App() {
-  return (
-    <div className="App">
-      <IndexPage/>
-    </div>
-  );
-}
+const App = () => <Home />
 
 export default App;

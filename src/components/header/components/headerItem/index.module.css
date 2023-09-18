@@ -1,0 +1,36 @@
+.header__item{
+    list-style: none;
+}
+
+.header__item a{
+    text-decoration: none;
+    color:#FFF;
+    margin: 0;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.header__item a::after{
+    content:'';
+    position:absolute;
+    width:100%;
+    transform:scaleX(0);
+    height:2px;
+    bottom:0;
+    left:0;
+    background-color:#FFF;
+    transform-origin:bottom right;
+    transition:transform 0.25s ease-out;
+}
+
+.header__item a:hover::after,
+.header__item a:active{
+    transform:scaleX(1);
+    transform-origin:bottom left;
+}
+
+@media(max-width:830px){
+    .header__item a{
+        margin: 12px 0;
+    }
+}

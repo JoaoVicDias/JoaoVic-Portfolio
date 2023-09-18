@@ -1,0 +1,28 @@
+.skills__item{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.skills__item img{
+    height: 120px;
+}
+
+.skills__item h5{
+    font-size: 1.7rem;
+    color: #DDD;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+@media(max-width:400px){
+    .skills__item img{
+        height: 90px;
+    }
+    
+}

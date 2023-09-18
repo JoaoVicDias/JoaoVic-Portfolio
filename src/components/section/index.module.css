@@ -1,0 +1,30 @@
+.section{
+    padding: 20px 120px;
+    background-color:#1a1a1a;
+    width: 100%;
+}
+
+.section__title{
+    text-align: center;
+    color: #FFF;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.section__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width:1023px){
+    .section{
+        padding: 20px;
+    }
+
+    .section__content{
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+}
